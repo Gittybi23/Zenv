@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel ="shortcut icon" type="x-icon" href = "Pictures/Y2K Zen Visuals Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Visuals</title>
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            font-family: monospace;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/Pictures/IvanaAlawiVector.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 0.9;
+            z-index: -1; 
+        }
+        .logo img {
+            display: block;
+            margin: 0 auto;
+            padding-top: 100px;
+            height: 200px;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .logo img:hover {
+            transform: scale(1.1); 
+            filter: brightness(1.2); 
+        }
+        .center {
+            text-align: center;
+            padding-top: 50px;
+        }
+        .row {
+            display: flex;
+            justify-content: center; 
+        }
+        .column {
+            width: 10%;
+            padding: 40px;
+            box-sizing: border-box;
+            text-align: center;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .column img {
+            height: 100%;
+            width: 100%;
+            display: block;
+            margin: 0 auto; 
+            transition: transform 0.3s ease-in-out;
+        }
+        .column img:hover {
+            transform: translateY(-15px); 
+        }
+        .email {
+            text-align: center;
+            margin-top: 5px;
+        }
+        .email img {
+            height: 50px;
+            width: 50px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .email img:hover {
+            transform: translateY(-15px); 
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="/Pictures/Y2K Zen Visuals Logo.png" title="Zen Visuals Logo">
+    </div>
+    <br>
+    <div class="center">
+        <div class="row">
+            <div class="column">
+                <a href="https://www.instagram.com/zv.zenvisuals2023/"target="_blank"><img src="/Pictures/instagram.png" title="Instagram"></a>
+            </div>
+            <div class="column">
+                <a href="https://twitter.com/zvzenvisuals23"target="_blank"><img src="/Pictures/icons8-twitter-circled-512.png" title="X"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.youtube.com/channel/UCFAggIwl7QAoEQfV4u6yOsg"target="_blank"><img src="/Pictures/youtube.png" title="Threads"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.facebook.com/profile.php?id=100086509890792"target="_blank"><img src="/Pictures/icons8-facebook-240.png" title="Facebook"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.pinterest.ph/raizensanandres/"target="_blank"><img src="/Pictures/Pinterest.png" title="Pinterest"></a>
+            </div>
+            <div class="column">
+                <a href="https://ko-fi.com/zenvisuals23/posts"target="_blank"><img src="/Pictures/icons8-ko-fi-150.png" title="Ko-fi"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.tiktok.com/@zvzenvisuals23"target="_blank"><img src="/Pictures/tiktok.png" title="Tiktok"></a>
+            </div>
+            <div class="column">
+                <a href="https://github.com/Gittybi23"target="_blank"><img src="/Pictures/pngwing.com (2).png" title="Github"></a>
+            </div>
+        </div>
+        <div class="email">
+            <a href="mailto:zv.zenvisuals@gmail.com"target = "_blank"><img src="/Pictures/icons8-email-96.png" title="Email me"></a>
+        </div>
+    </div>
+</body>
+</html>
